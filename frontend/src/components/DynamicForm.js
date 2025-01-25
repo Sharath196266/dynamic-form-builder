@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { formSchema } from './formSchema';
-import './Form.css';
+import '../Form.css';
 
 const DynamicForm = () => {
   const [formData, setFormData] = useState({});
